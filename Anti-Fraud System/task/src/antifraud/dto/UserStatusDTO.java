@@ -20,17 +20,4 @@ public class UserStatusDTO {
     private UserStatusDTO(String status) {
         this.status = status;
     }
-
-//    public static class UserLocked extends UserStatusDTO {
-//        public UserLocked(String username) {
-//            super(String.format("User %s locked!", username));
-//        }
-//    }
-//
-//    public static class UserUnlocked extends UserStatusDTO {
-//        public UserUnlocked(String username) {
-//            super(String.format("User %s unlocked!", username));
-//        }
-//    }
-
 }
