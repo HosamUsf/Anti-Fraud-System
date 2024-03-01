@@ -7,7 +7,7 @@ public class CheckCardNumber {
         cardNumber = cardNumber.replaceAll("\\D", "");
 
         if (cardNumber.length() < 13 || cardNumber.length() > 19) {
-            return false; // Card number length is invalid
+            return false;
         }
 
         int sum = 0;
