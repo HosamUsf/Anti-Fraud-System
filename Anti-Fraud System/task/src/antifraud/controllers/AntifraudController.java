@@ -87,6 +87,4 @@ public class AntifraudController {
     public Transaction addFeedback(@RequestBody TransactionFeedback transactionFeedback){
         return transactionService.addFeedback(transactionFeedback);
     }
-
-
 }
