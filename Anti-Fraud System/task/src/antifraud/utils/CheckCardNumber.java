@@ -3,7 +3,7 @@ package antifraud.utils;
 public class CheckCardNumber {
 
     public static boolean isValidCardNumber(String cardNumber) {
-        // Remove spaces and non-digit characters
+
         cardNumber = cardNumber.replaceAll("\\D", "");
 
         if (cardNumber.length() < 13 || cardNumber.length() > 19) {
