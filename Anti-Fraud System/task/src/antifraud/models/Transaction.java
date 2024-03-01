@@ -45,6 +45,4 @@ public class Transaction {
     private String result ;
 
     private String feedback ;
-
-
 }
