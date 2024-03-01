@@ -62,6 +62,4 @@ public class AuthenticationController {
 
         return new ResponseEntity<>(Map.of("status" ,service.updateAccess(userAccessDto)),HttpStatus.OK);
     }
-
-
 }
